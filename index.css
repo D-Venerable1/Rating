@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Overpass;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9em;
+    background-color: #141519;
+}
+.container{
+    background-color: #212832;
+    width: 30%;
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+.container h2{
+    color: #ffffff;
+}
+.container p{
+    color: #808080;
+}
+.star{
+ background-color: #262F38;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}
+#star{
+    color: #ff7715;
+}
+.Pages{
+    background-color: #262F38;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Pages a{
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+}
+.Pages a:active{
+    background-color: #ffffff;
+}
+.Pages:hover{
+    background-color: #fc7613;
+    cursor: pointer;
+}
+.Pages:active{
+    background-color: #ffffff;
+}
+.submit{
+    background-color: #fc7613;
+    height: 30px; 
+    border: none;  
+    font-weight: bold;
+    border-radius: 30px;  
+}
+.submit:hover{
+    cursor: pointer;
+}
+.submit a{
+    letter-spacing: 2px;
+}
+.Pages-container{
+    display: flex;
+    justify-content: space-between;
+}
